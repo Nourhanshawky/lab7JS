@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlidShow Images</title>
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    
+    <div class="sliderContainer">
+
+        <div class="mySlides fade">
+          <img src="https://i.pinimg.com/474x/a3/9c/d0/a39cd09ac1b6b6b9f399443d45629326.jpg" style="width:100%">
+          
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="https://i.pinimg.com/474x/23/55/cd/2355cd02b42ca6ea2dedf59c5af36e67.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="https://i.pinimg.com/474x/29/e6/e1/29e6e1d3c198b3ea1792d3302636aaf8.jpg" style="width:100%">
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <script src="slider.js"></script>
+</body>
+</html>
